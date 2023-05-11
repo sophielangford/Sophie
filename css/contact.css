@@ -1,0 +1,39 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.container {
+    width: 800px;
+    height: 400px ;
+    background-color: lavender ;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(72,98,85,0.6);
+}
+.container h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    
+}
+
+.input, .msg, .area, .btn{
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width:500px) {
+    body {
+        width: 400px;
+    }
+    footer {
+        padding-top: 0%;
+    }
+}

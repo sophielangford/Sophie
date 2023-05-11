@@ -1,0 +1,26 @@
+#goals {
+    background-color: lavender;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ul {
+    list-style-type: square;
+    
+}
+.listhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+h2 {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 40px;
+}
